@@ -17,7 +17,7 @@ void setup() {
   // create an array and fill it with circles
   dots = new Circle[num_Circles];
   for (int i=0; i< num_Circles; i++) {
-    //circles[i] = new Circle(random(width), random(height), random(0, 50));
+    //dots[i] = new Circle(random(width), random(height), random(0, 50));
     dots[i] = new Circle(500*sin(TWO_PI/num_Circles*i), 500*cos(TWO_PI/num_Circles*i), random(10, 10));
   }
 }
